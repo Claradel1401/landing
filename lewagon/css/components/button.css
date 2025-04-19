@@ -1,0 +1,25 @@
+.btn-blue {
+  background-color: #6D71DD; /* Un joli violet */
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; /* Taille plus grande */
+  padding: 12px 30px; /* Espacement ajusté */
+  border-radius: 50px; /* Coins arrondis */
+  text-transform: uppercase; /* Texte en majuscule pour plus de clarté */
+  letter-spacing: 1px; /* Espacement des lettres */
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease; /* Animation */
+  display: inline-block;
+  text-align: center;
+  cursor: pointer; /* Ajoute un curseur pointer pour l’interaction */
+}
+
+.btn-blue:hover {
+  background-color: #5a63d0; /* Un violet plus foncé au survol */
+  transform: translateY(-2px); /* Légère remontée */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); /* Ombre portée au survol */
+}
+
+.btn-blue:focus {
+  outline: none; /* Retirer le contour par défaut */
+}
